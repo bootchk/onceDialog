@@ -1,0 +1,47 @@
+
+onceDialog
+==============
+
+Copyright 2013 Lloyd K. Konneker
+
+
+About
+-----
+
+A OnceDialog displays a text once over the life of an app's installation, 
+if the user accepts the dialog.  
+Otherwise (if you call it when an app starts, and the user rejects it) 
+it displays again the next time a user starts your app.
+
+Typically used for a license.
+
+Not a splash screen (which displays AS an app prepares to start.)
+
+
+License
+-------
+
+LGPLv3+
+
+
+Requirements
+------------
+
+Qt
+Python
+PySide (or PyQt)
+
+
+Features
+--------
+
+The package includes an example app that uses OnceDialog.
+It illustrates how to setup QSettings and call a OnceDialog.
+
+The OnceDialog uses templated text, easy to customize.
+
+The default text is a simple license for the following situation:
+- your app is proprietary
+- single use license
+- your app is built using LGPL libraries which you must convey
+  (for example, Python, Qt, PySide, and others.)
