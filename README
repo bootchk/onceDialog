@@ -38,10 +38,10 @@ Features
 The package includes an example app that uses OnceDialog.
 It illustrates how to setup QSettings and call a OnceDialog.
 
-The OnceDialog uses templated text, easy to customize.
+The OnceDialog uses (depends on) templated text, easy to customize.
 
-The default text is a simple license for the following situation:
-- your app is proprietary
+The default templated text is a simple license for the following situation:
+- your app is proprietary but free of charge
 - single use license
 - your app is built using LGPL libraries which you must convey
   (for example, Python, Qt, PySide, and others.)
